@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
         textView = (TextView) findViewById(R.id.helloWorld);
 
         /** Iniciamos el cache y la red para nuestra cola de peticiones
-         * Para el cache, le definimos la ruta donde va a alacenarse y el tamaño máximo. (en bytes)
+         * Para el cache, le definimos la ruta donde va a almacenarse y el tamaño máximo. (en bytes)
          * Para la red, definimos una pila.
          */
         cache = new DiskBasedCache(getCacheDir(), 1024*1024); // 1MB de caché
